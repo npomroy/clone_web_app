@@ -6,4 +6,5 @@ Rails.application.routes.draw do
     resource :profile
   end
   get 'about', to: 'pages#about'
+  get 'outdoors', to: 'pages#outdoors'
 end
