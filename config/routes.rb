@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   end
   get 'about', to: 'pages#about'
   get 'outdoors', to: 'pages#outdoors'
+  resources :hikes
 end
